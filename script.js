@@ -583,7 +583,8 @@ function createCompanyCard(co){
   const featBadge=co.featured&&!co.gnt?`<div style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:20px;font-size:9px;font-weight:700;background:#FEF3C7;color:#92400E;border:1px solid #F59E0B;margin-bottom:6px">★ FEATURED</div>`:'';
   const stat=(k,v,cls)=>v?`<div class="cc-stat"><span class="cc-stat-k">${k}</span><span class="cc-stat-v ${cls||''}">${v}</span></div>`:'';
   const footer=(co.revenue||co.mcap||co.stock24)?`<div class="cc-footer">${stat('売上',co.revenue)}${stat('時価総額',co.mcap)}${stat('株価騰落',co.stock24,co.perf==='up'?'up':co.perf==='dn'?'dn':'')}</div>`:'';
-  cc.innerHTML=`<div class="cc-top"></div><div class="cc-body">${gntBadge}${featBadge}<div class="cc-row1"><div><div class="cc-name">${flag(co.country)} ${co.name}</div>${co.en?`<div class="cc-en">${co.en}</div>`:''}</div>${co.ticker?`<div class="cc-badge" style="color:${color};border-color:${color};background:${bg}">${co.ticker}</div>`:''}</div><div class="cc-product">${co.product||''}</div>${shareSection}<div class="cc-highlights">${highlights}</div></div>${footer}`;
+  const prodTitle=(co.product||'').replace(/"/g,'&quot;');
+  cc.innerHTML=`<div class="cc-top"></div><div class="cc-body">${gntBadge}${featBadge}<div class="cc-row1"><div><div class="cc-name">${flag(co.country)} ${co.name}</div>${co.en?`<div class="cc-en">${co.en}</div>`:''}</div>${co.ticker?`<div class="cc-badge" style="color:${color};border-color:${color};background:${bg}">${co.ticker}</div>`:''}</div>${co.product?`<div class="cc-product" title="${prodTitle}">${co.product}</div>`:''}${shareSection}<div class="cc-reveal"><div class="cc-reveal-in">${highlights?`<div class="cc-highlights">${highlights}</div>`:''}<div class="cc-cta">クリックで詳細・財務・投資分析 →</div></div></div></div>${footer}`;
   cc.onclick=()=>showDetail(co.id);
   return cc;
 }
