@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>半導体サプライチェーン 全体構造分析 2025–2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body><div class="app">
+<div class="top-bar">
+  <div class="tb-brand">半導体サプライチェーン 全体構造分析</div>
+  <div class="tb-title" id="topTitle">概要</div>
+  <div class="tb-info">2025–2026 Edition</div>
+  <div class="progress-bar" id="progressBar" style="width:7.7%"></div>
+</div>
+<div class="slides" id="slidesContainer">
+<!-- s0: TITLE -->
+<div class="slide active" id="s0">
+  <div class="title-bg"></div>
+  <div class="title-content">
+    <div class="title-kicker">Global Semiconductor Supply Chain // 2025–2026</div>
+    <div class="title-h">半導体産業<br><em>全体構造</em>分析</div>
+    <div class="title-sub">上流から下流まで7層のサプライチェーンを鳥瞰。<br>主要63社超・GNT企業20社の世界シェア・IR情報・競争優位性を収録。</div>
+    <div class="kpi-row">
+      <div class="kpi-box"><div class="kpi-val">$697B</div><div class="kpi-lbl">世界半導体市場（2025見込）</div><div class="kpi-chg up">▲ +11% YoY</div></div>
+      <div class="kpi-box"><div class="kpi-val">63+</div><div class="kpi-lbl">掲載主要企業数</div><div class="kpi-chg ne">8カ国にわたる</div></div>
+      <div class="kpi-box"><div class="kpi-val">20社</div><div class="kpi-lbl">GNT認定企業</div><div class="kpi-chg ne">⭐ 日本企業が主導</div></div>
+      <div class="kpi-box"><div class="kpi-val">$500B+</div><div class="kpi-lbl">各国の政策支援規模</div><div class="kpi-chg ne">米・中・日・EU・韓</div></div>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+      <span class="tag" style="color:var(--jp);border-color:var(--jp);background:var(--jp-bg)">🇯🇵 日本</span>
+      <span class="tag" style="color:var(--us);border-color:var(--us);background:var(--us-bg)">🇺🇸 米国</span>
+      <span class="tag" style="color:var(--tw);border-color:var(--tw);background:var(--tw-bg)">🇹🇼 台湾</span>
+      <span class="tag" style="color:var(--kr);border-color:var(--kr);background:var(--kr-bg)">🇰🇷 韓国</span>
+      <span class="tag" style="color:var(--nl);border-color:var(--nl);background:var(--nl-bg)">🇳🇱 オランダ</span>
+      <span class="tag" style="color:var(--de);border-color:var(--de);background:var(--de-bg)">🇩🇪 ドイツ</span>
+      <span class="tag" style="color:var(--cn);border-color:var(--cn);background:var(--cn-bg)">🇨🇳 中国</span>
+      <span class="tag" style="color:var(--uk);border-color:var(--uk);background:var(--uk-bg)">🇬🇧 英国</span>
+    </div>
+    <div class="title-note">← → キー / 下部ドットでスライド移動 ／ 企業名クリックで詳細・IR・投資分析 ／ ⭐ = GNT認定企業</div>
+  </div>
+</div>
+<!-- s1: CHAIN MAP -->
+<div class="slide" id="s1">
+  <div class="sl-header">
+    <div class="sl-eyebrow">Slide 02 // Supply Chain Overview</div>
+    <div class="sl-h1">7層サプライチェーン <em>全体マップ</em></div>
+    <div class="sl-h2">各レイヤーの主要企業一覧。バーの長さ・数値は世界シェア。⭐ はGNT認定企業。クリックで詳細を表示。</div>
+  </div>
+  <div class="sl-body" style="padding-bottom:76px"><div class="chain-wrap" id="chainMap"></div></div>
+</div>
+<!-- s2–s8: LAYER SLIDES -->
+<div class="slide layer-slide" id="s2">
+  <div class="sl-header"><div class="sl-eyebrow">Slide 03 // Layer 01</div><div class="sl-h1">⚗️ <em>原材料・素材</em>層</div><div class="sl-h2">半導体製造の「土台」。日本企業が14種類の重要材料で世界シェア50〜100%を独占する最上流層。⭐ GNT認定企業多数。</div></div>
+  <div class="sl-body" id="layer1-body"></div>
+</div>
+<div class="slide layer-slide" id="s3">
+  <div class="sl-header"><div class="sl-eyebrow">Slide 04 // Layer 02</div><div class="sl-h1">⚙️ <em>製造装置・EDA</em>層</div><div class="sl-h2">EUV露光から洗浄・検査・テストまで。米・蘭・日の3か国で市場85%以上を独占する「装置の壁」。</div></div>
+  <div class="sl-body" id="layer2-body"></div>
+</div>
+<div class="slide layer-slide" id="s4">
+  <div class="sl-header"><div class="sl-eyebrow">Slide 05 // Layer 03 + 04</div><div class="sl-h1">🧩 <em>IPコア・ファブレス設計</em>層</div><div class="sl-h2">設計知財（ARM独占）とファブレス設計（NVIDIA一強）。製造を持たずに最大収益を生む新時代の構造。</div></div>
+  <div class="sl-body" id="layer34-body"></div>
+</div>
+<div class="slide layer-slide" id="s5">
+  <div class="sl-header"><div class="sl-eyebrow">Slide 06 // Layer 05 — Foundry</div><div class="sl-h1">🏭 <em>ファウンドリ</em>層</div><div class="sl-h2">TSMC一強（70.4%）が続くも2nm競争が激化。Samsung・Intel・Rapidusが追走する製造覇権争い。</div></div>
+  <div class="sl-body" id="layer5f-body"></div>
+</div>
+<div class="slide layer-slide" id="s6">
+  <div class="sl-header"><div class="sl-eyebrow">Slide 07 // Layer 05 — Memory IDM</div><div class="sl-h1">💾 <em>メモリ・IDM</em>層</div><div class="sl-h2">HBM覇権争いが最大の焦点。SK hynix 62%→Samsung失速→Micron急伸の大転換が2024年に起きた。</div></div>
+  <div class="sl-body" id="layer5m-body"></div>
+</div>
+<div class="slide layer-slide" id="s7">
+  <div class="sl-header"><div class="sl-eyebrow">Slide 08 // Layer 06</div><div class="sl-h1">📦 <em>後工程・OSAT</em>層</div><div class="sl-h2">AI時代の真のボトルネック。CoWoS（TSMC独占・2027まで満杯）とHBM組立が供給制約の核心。</div></div>
+  <div class="sl-body" id="layer6-body"></div>
+</div>
+<div class="slide layer-slide" id="s8">
+  <div class="sl-header"><div class="sl-eyebrow">Slide 09 // Layer 07</div><div class="sl-h1">🖥️ <em>最終製品・需要</em>層</div><div class="sl-h2">AI/DC・スマホ・車載の三大需要。NVIDIA独走のAI、MediaTek首位のモバイル、欧州主導の車載。</div></div>
+  <div class="sl-body" id="layer7-body"></div>
+</div>
+<!-- s9: JAPAN DEEP DIVE -->
+<div class="slide layer-slide" id="s9">
+  <div class="sl-header"><div class="sl-eyebrow">Slide 10 // Japan Deep Dive</div><div class="sl-h1">🇯🇵 日本企業 <em>深掘り</em> — 4社の完全解説</div><div class="sl-h2">オキサイド・レーザーテック・信越化学・アドバンテスト。表舞台に出ない「隠れた独占」の全貌。</div></div>
+  <div class="sl-body" id="japan4-body"></div>
+</div>
+<!-- s10: GNT SPECIAL -->
+<div class="slide gnt-slide" id="s10">
+  <div class="sl-header">
+    <div class="sl-eyebrow" style="color:var(--gold)">Slide 11 // Global Niche Top</div>
+    <div class="sl-h1" style="color:#78350F">⭐ グローバルニッチトップ（GNT）<em style="color:var(--gold)">企業特集</em></div>
+    <div class="sl-h2">日本が世界を支配するニッチ領域。20社のGNT企業が半導体サプライチェーンの「見えないボトルネック」を形成する。</div>
+  </div>
+  <div class="sl-body" id="gnt-body"></div>
+</div>
+<!-- s11: STOCK RANKING -->
+<div class="slide stock-slide" id="s11">
+  <div class="sl-header">
+    <div class="sl-eyebrow">Slide 12 // Investment Analysis</div>
+    <div class="sl-h1">📈 株価上昇<em>期待倍率ランキング</em>（2026年4月基点・18ヶ月目標）</div>
+    <div class="sl-h2">独占構造・AI需要連動・バリュエーション・触媒の4軸で評価。クリックで詳細考察を表示。</div>
+  </div>
+  <div class="sl-body">
+    <div class="stock-table-wrap" id="stockTableWrap"></div>
+    <div class="stock-disclaimer">⚠️ <strong>免責事項：</strong>本ランキングは教育・情報提供目的の独自分析であり、投資助言ではありません。株価予測は本質的に不確実であり、実際の結果は大きく異なる場合があります。投資判断は必ずご自身の調査と専門家への相談のうえ行ってください。掲載価格・指標は概算参考値です。</div>
+  </div>
+</div>
+<!-- s12: SUMMARY -->
+<div class="slide" id="s12">
+  <div class="sl-header">
+    <div class="sl-eyebrow">Slide 13 // Conclusion</div>
+    <div class="sl-h1">構造サマリー：<em>各層の独占企業</em>と代替可能性</div>
+    <div class="sl-h2">「各層1〜3社独占の積層」が半導体サプライチェーンの本質。どの層が止まれば世界が止まるか。</div>
+  </div>
+  <div class="sl-body" style="overflow-y:auto"><div id="summary-body"></div></div>
+</div>
+</div><!-- /slides -->
+<!-- BOTTOM NAV -->
+<div class="bottom-nav">
+  <button class="nav-btn" onclick="navigate(-1)">←</button>
+  <div class="dots" id="dots"></div>
+  <div class="slide-label" id="slideLabel">1 / 13</div>
+  <button class="nav-btn" onclick="navigate(1)">→</button>
+</div>
+<!-- DETAIL PANEL -->
+<div class="detail-overlay" id="detailOverlay" onclick="closeDetail()"></div>
+<div class="detail-panel" id="detailPanel">
+  <div class="dp-header">
+    <div><div class="dp-company-name" id="dpName">Company</div><div class="dp-company-en" id="dpEn"></div></div>
+    <button class="dp-close" onclick="closeDetail()">✕</button>
+  </div>
+  <div class="dp-body" id="dpBody"></div>
+</div>
+<script src="script.js"></script>
+</div></body></html>
