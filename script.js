@@ -137,12 +137,12 @@ const COMPANIES=[
   {id:'asml',layer:2,sub:'リソグラフィ',name:'ASML',en:'ASML Holding N.V.',ticker:'ASML',country:'NL',
    product:'EUV・DUV露光装置',share:100,shareLabel:'EUV露光装置（世界独占）',
    featured:true,gnt:true,
-   revenue:'€28.3B',mcap:'≈€260B',stock24:'−6%（中国規制懸念）',perf:'dn',
-   ir:{per:'32x',pbr:'16x',roe:'51%',div:'€6.40',guidance:'2025年回復・High-NA EUV本格展開',latestQ:'Q4受注好調・中国規制影響も吸収',irLink:'https://www.asml.com/en/investors'},
+   revenue:'€32.5B（2025・+約15%）',mcap:'≈€300B規模',stock24:'+約25%（直近1年）',perf:'up',
+   ir:{per:'34x',pbr:'17x',roe:'51%',div:'€6.40',guidance:'2026年も2025年並み以上・High-NA EUV本格展開',latestQ:'Q4 2025受注が過去最高・High-NA採用進む',irLink:'https://www.asml.com/en/investors'},
    strength:'EUV露光装置（1台約400億円）で世界100%独占。High-NA EUV（次世代、NA=0.55）も独占量産中。TSMC・Samsung・Intelへの供給でAI半導体サプライチェーンの絶対的要。30万点以上の部品からなる超精密機械。',
-   risk:'中国向けDUV輸出規制強化（売上の49%が中国向け）。NikonのArF新機種が2028年に競合予定。',
-   outlook:'High-NA EUV普及で単価さらに上昇。TSMCのArizona・日本・ドイツファブ新設で新規需要。2030年まで受注残が積み上がり済み。',
-   highlights:['EUV 100%独占（代替なし）','High-NA EUV量産中','2030年まで受注残積み上がり'],
+   risk:'中国向け売上は2026年に比率約20%へ縮小（2025年は33%）。NikonのArF新機種が2028年に競合予定。',
+   outlook:'High-NA EUV普及で単価さらに上昇。TSMCのArizona・日本・ドイツファブ新設で新規需要。中国減少を先端EUV需要が相殺し、2026年売上は2025年を下回らない見通し。',
+   highlights:['EUV 100%独占（代替なし）','High-NA EUV量産・採用拡大','Q4 2025受注が過去最高'],
   },
   {id:'tel',layer:2,sub:'プロセス装置',name:'東京エレクトロン（TEL）',en:'Tokyo Electron',ticker:'8035.T',country:'JP',
    product:'コータ/デベロッパ・成膜・エッチング装置',share:90,shareLabel:'EUV用コータ/デベロッパ',
@@ -197,12 +197,12 @@ const COMPANIES=[
   {id:'advantest',layer:2,sub:'後工程装置',name:'アドバンテスト',en:'Advantest Corporation',ticker:'6857.T',country:'JP',
    product:'SoCテスタ（AI GPU向け）・HBMテスタ',share:90,shareLabel:'AI GPU向けSoCテスタ（事実上独占）',
    featured:true,gnt:true,
-   revenue:'≈¥2,640億（年換算）',mcap:'≈¥6〜8兆',stock24:'+178%（日本株最高パフォーマー）',perf:'up',
-   ir:{per:'52x',pbr:'18x',roe:'34%',div:'¥100',guidance:'FY2025 Rubin世代でテスト増',latestQ:'Q3営業利益率47%・生産能力倍増中',irLink:'https://www.advantest.com/investors/'},
-   strength:'NVIDIA H100/B200/Rubin系GPU全てとSK hynix HBM3E（全量）のテストをほぼ独占。AI GPUはテスト難易度・時間がH100→B200で2〜3倍に増加し需要が非線形に拡大。Installed Base（稼働台数）増でストック収益も積み上がる。',
-   risk:'NVIDIA依存度が高い（70%超）。AIバブル崩壊局面で受注急減リスク。高バリュエーション。',
-   outlook:'Rubin/HBM4移行でテスト時間がさらに増加。生産能力を5,000台→10,000台へ倍増中。FY25Q1営業利益率47%という驚異的な収益性。',
-   highlights:['+178%（2024年・日本株最高水準）','AIテスタ事実上独占','営業利益率47%'],
+   revenue:'過去最高更新（FY2025）',mcap:'≈¥12兆規模',stock24:'+約40%（直近1年）',perf:'up',
+   ir:{per:'45x',pbr:'16x',roe:'34%',div:'¥100',guidance:'Rubin/HBM4世代でテスト需要が一段と拡大',latestQ:'高水準の受注継続・生産能力を倍増中（高い営業利益率を維持）',irLink:'https://www.advantest.com/investors/'},
+   strength:'NVIDIA H100/B200/Rubin系GPU全てとSK hynix HBM（高水準）のテストをほぼ独占。AI GPUはテスト難易度・時間がH100→B200で2〜3倍に増加し需要が非線形に拡大。Installed Base（稼働台数）増でストック収益も積み上がる。',
+   risk:'NVIDIA依存度が高い。AIメモリ・GPU需要の反転局面で受注急減リスク。高バリュエーション。',
+   outlook:'Rubin/HBM4移行でテスト時間がさらに増加。生産能力を倍増中で、極めて高い営業利益率を維持している。',
+   highlights:['AIテスタ事実上独占（SoC/HBM）','テスト時間がH100→B200→Rubinで非線形増','高い営業利益率を維持'],
   },
   {id:'asmint',layer:2,sub:'プロセス装置',name:'ASM International',ticker:'ASM.AS',country:'NL',
    product:'ALD（原子層堆積）装置',share:55,shareLabel:'ALD装置（世界1位）',
@@ -264,12 +264,12 @@ const COMPANIES=[
   {id:'arm',layer:3,sub:'CPU IPコア',name:'ARM Holdings',en:'Arm Holdings plc',ticker:'ARM',country:'UK',
    product:'CPUアーキテクチャIPライセンス（ARMv8/v9）',share:45,shareLabel:'IP市場シェア',
    featured:true,
-   revenue:'$4.01B（FY2025）',mcap:'≈$160B',stock24:'+88%',perf:'up',
-   ir:{per:'95x',pbr:'25x',roe:'26%',div:'—',guidance:'ロイヤリティ収入増でEPS成長加速',latestQ:'Q3 ARPが前年比+25%・データセンター顧客拡大',irLink:'https://investors.arm.com/'},
-   strength:'モバイルSoC設計の99%がARM採用。データセンターCPUへの侵食（15〜23%）。2025年9月Qualcomm訴訟で完全勝訴確定。SoftBank傘下。Appleがシリコン設計でARMを使う独占的な地位。',
+   revenue:'$4.92B（FY2026・+23%）',mcap:'≈$170B',stock24:'+約20%（直近1年）',perf:'up',
+   ir:{per:'85x',pbr:'22x',roe:'26%',div:'—',guidance:'ロイヤリティ単価上昇でEPS成長加速・AGI向けCPU投入',latestQ:'FY2026通期売上$4.92B（過去最高）・Q4 $1.49B',irLink:'https://investors.arm.com/'},
+   strength:'モバイルSoC設計の99%がARM採用。データセンターCPUへの侵食が拡大（15〜25%）。2025年9月Qualcomm訴訟は完全勝訴で決着。SoftBank傘下。自社設計のAGI（AIデータセンターCPU）も投入し垂直展開を加速。',
    risk:'RISC-V台頭（中国の国家戦略ISA化）。ライセンス料モデルへの批判と代替圧力。',
    outlook:'AI推論チップ向けARMベース設計が急増。AWS Graviton・Google Axion・Microsoft CobaltなどHyperscalerのARMサーバーCPUが急拡大。データセンターでのx86侵食が続く。',
-   highlights:['モバイルSoC設計99%採用','データセンターへ侵食（15〜23%）','IP市場シェア45%'],
+   highlights:['モバイルSoC設計99%採用','データセンターCPUへ侵食拡大','FY2026売上$4.92B（過去最高）'],
   },
   {id:'synopsysip',layer:3,sub:'DesignIP',name:'Synopsys DesignWare',country:'US',
    product:'Interface IP・SRAM・PCI-E等のIPコア',share:25,shareLabel:'IP市場シェア（世界2位）',
@@ -284,19 +284,19 @@ const COMPANIES=[
   {id:'nvidia',layer:4,sub:'AI / HPC',name:'NVIDIA',ticker:'NVDA',country:'US',
    product:'AI GPU・データセンター向けアクセラレータ',share:80,shareLabel:'AIアクセラレータ（世界シェア）',
    featured:true,
-   revenue:'$130.5B（FY2025）→$200B超見込み（FY2026）',mcap:'≈$3.6T（一時$4T超突破）',stock24:'+211%（2024）',perf:'up',
-   ir:{per:'38x',pbr:'35x',roe:'91%',div:'$0.04',guidance:'FY2026 DC売上$200B超見込み',latestQ:'Q4 DC売上$35.6B（+142%）・Blackwell供給加速',irLink:'https://investor.nvidia.com/'},
-   strength:'AIアクセラレータで80〜92%独占。CUDAエコシステムの壁が最大の競争優位。FY2025データセンター売上$115.2B（+142%）。2025年6月に世界初$4T時価総額突破。Blackwell（B200/GB200）の超大型発注継続。2026年にRubin GPC（GB300）へ移行。',
-   risk:'中国輸出規制（H100/B100/B200等の順次規制）。ハイパースケーラのカスタムASIC（Broadcom等）が推論シェアを侵食。',
-   outlook:'Rubin GPC（GB300）量産拡大で2026年さらなる加速。データセンター支出が年$500B超へ。CUDAエコシステムはソフトウェアと一体化し切り替えコストが上昇一方。',
-   highlights:['+211%（2024）・一時$4T時価総額突破','AIアクセラレータ80〜92%独占','FY2025 DC売上$115.2B（+142%）'],
+   revenue:'$215.9B（FY2026・+65%）',mcap:'≈$5.0T（世界首位）',stock24:'+約45%（直近1年）',perf:'up',
+   ir:{per:'34x',pbr:'30x',roe:'90%',div:'$0.04',guidance:'FY2027もDC需要拡大・Rubin立ち上げへ',latestQ:'FY26通期DC売上$193.7B（過去最高）・Q1 FY27売上$81.6B',irLink:'https://investor.nvidia.com/'},
+   strength:'AIアクセラレータで80〜90%独占。CUDAエコシステムの壁が最大の競争優位。FY2026データセンター売上$193.7B（過去最高）。2026年に世界初の$5兆ドル時価総額に到達し世界最大の企業に。Blackwell（B200/GB200/GB300）の大型発注が続き、次世代Vera Rubinへ移行中。',
+   risk:'中国輸出規制（H/B/Bシリーズの順次規制）。ハイパースケーラのカスタムASIC（Broadcom等）が推論シェアを侵食。AI設備投資の循環反転リスク。',
+   outlook:'Vera Rubinプラットフォームが2026年後半（H2 FY2027）に立ち上がり性能が再び大幅向上。データセンター支出は年$500B超へ拡大。CUDAエコシステムの切り替えコストはむしろ上昇。',
+   highlights:['$5兆ドル時価総額・世界首位','AIアクセラレータ80〜90%独占','FY2026 DC売上$193.7B（過去最高）'],
   },
   {id:'broadcom',layer:4,sub:'ASIC / ネットワーク',name:'Broadcom',ticker:'AVGO',country:'US',
    product:'カスタムASIC（XPU）・ネットワークチップ',share:12,shareLabel:'ファブレスTOP10シェア',
-   revenue:'$51.6B（FY2025）',mcap:'≈$1T',stock24:'+108%（2024）',perf:'up',
-   ir:{per:'30x',pbr:'16x',roe:'53%',div:'$2.36',guidance:'XPU拡大でFY2026大幅増収見通し',latestQ:'Q1 AI XPU売上$4.1B（前年比+220%）',irLink:'https://investors.broadcom.com/'},
-   strength:'Google・Meta・Apple・OpenAI向けカスタムASIC（XPU）で急成長。OpenAIとの$10B ASIC契約を締結。AI推論フェーズでNVIDIA依存を分散したい大手クラウドの受け皿として時価総額$1T突破。Ethernetネットワーキング（Tomahawk）でも高シェア。',
-   highlights:['+108%（2024）・時価総額$1T突破','OpenAI $10B XPU契約','Google/Meta/Apple/OpenAI全顧客化'],
+   revenue:'≈$60B（FY2025）',mcap:'≈$1.5兆ドル規模',stock24:'+約50%（直近1年）',perf:'up',
+   ir:{per:'34x',pbr:'18x',roe:'53%',div:'$2.36',guidance:'AI向けXPU/ネットワークが牽引しFY2026も大幅増収',latestQ:'AI半導体売上が高成長継続・カスタムXPU受注拡大',irLink:'https://investors.broadcom.com/'},
+   strength:'Google・Meta・Apple・OpenAI向けカスタムASIC（XPU）で急成長。OpenAIとの$10B規模ASIC契約を締結。AI推論フェーズでNVIDIA依存を分散したい大手クラウドの受け皿として時価総額$1兆ドルを大きく超える規模に成長。Ethernetネットワーキング（Tomahawk）でも高シェア。',
+   highlights:['AI XPUで急成長・時価総額$1兆ドル超','OpenAI $10B規模XPU契約','Google/Meta/Apple/OpenAI全顧客化'],
   },
   {id:'qualcomm',layer:4,sub:'モバイル',name:'Qualcomm',ticker:'QCOM',country:'US',
    product:'スマートフォンSoC（Snapdragon）',share:21,shareLabel:'スマホSoC世界シェア',
@@ -316,8 +316,8 @@ const COMPANIES=[
   },
   {id:'apple',layer:4,sub:'カスタム',name:'Apple Silicon',country:'US',
    product:'A-series（iPhone）・M-series（Mac）',share:100,shareLabel:'iPhone用SoC自社設計率',
-   strength:'iPhone全量をARMベースで自社設計、TSMC 3nmで独占製造。PC向けM4シリーズで業界最高クラスの性能電力比を実現。',
-   highlights:['iPhone SoC自社設計100%','TSMC最大顧客（24%売上）','M4でPC AI性能トップ'],
+   strength:'iPhone全量をARMベースで自社設計、TSMC 3nm級で独占製造。PC向けM5シリーズで業界最高クラスの性能電力比を実現。',
+   highlights:['iPhone SoC自社設計100%','TSMC最大顧客級','M5でPC AI性能トップ'],
   },
   {id:'hisilicon',layer:4,sub:'中国勢',name:'HiSilicon（ファーウェイ）',country:'CN',
    product:'Kirin（スマホ）・Ascend（AI）',share:5,shareLabel:'中国AI市場シェア（推計）',
@@ -329,18 +329,18 @@ const COMPANIES=[
   {id:'tsmc',layer:5,sub:'ファウンドリ',name:'TSMC',en:'Taiwan Semiconductor Manufacturing',ticker:'2330.TW',country:'TW',
    product:'先端ロジック半導体受託製造（N2/3nm主力）',share:70,shareLabel:'ファウンドリ世界シェア',
    featured:true,
-   revenue:'$90.0B（2024）→$120B+見込み（2025）',mcap:'≈$900B',stock24:'+102%（2024）',perf:'up',
-   ir:{per:'22x',pbr:'7.5x',roe:'34%',div:'NT$14.2',guidance:'N2量産・CoWoS拡張で増収加速',latestQ:'Q4売上+36%・N2量産2025後半開始確認',irLink:'https://investor.tsmc.com/'},
-   strength:'先端ノード（≤3nm）で90%超独占。CoWoSパッケージングも独占的地位。NVIDIA・Apple・AMD・QualcommのすべてがTSMC依存。CapEx $52〜56B/年を投じ圧倒的技術リードを維持。N2（2nm）量産を2025年後半に開始、NVIDIA最大顧客（売上比率19%→首位へ）に。',
+   revenue:'$122.4B（2025・+34%）',mcap:'≈$2.2T',stock24:'+約90%（直近1年）',perf:'up',
+   ir:{per:'24x',pbr:'8x',roe:'34%',div:'NT$16',guidance:'N2ランプ・CoWoS拡張で2026年も高成長',latestQ:'N2量産2025年Q4に始動・AI需要で受注堅調',irLink:'https://investor.tsmc.com/'},
+   strength:'先端ノード（≤3nm）で90%超独占。CoWoSパッケージングも独占的地位。NVIDIA・Apple・AMD・QualcommのすべてがTSMC依存。CapEx $52〜56B/年を投じ圧倒的技術リードを維持。N2（2nm）量産を2025年Q4に開始し2026年に本格ランプ、NVIDIA最大顧客（売上比率で首位級）に。',
    risk:'台湾有事リスク（代替なし）。CapEx規模の大きさが財務負担。',
-   outlook:'N2量産2025年後半、N2P/A16（2026）、N14（2027）とロードマップ充実。Arizona（3ファブ）・日本熊本JASM・ドイツドレスデンへ分散投資継続。',
-   highlights:['ファウンドリ70%独占・≤3nm 90%超','N2（2nm）量産2025年後半開始','CapEx $52-56B/年・地理分散加速'],
+   outlook:'N2ランプが2026年に加速、N2P/A16量産が2026年後半、N14（2027）とロードマップ充実。Arizona（複数ファブ）・日本熊本JASM・ドイツドレスデンへ分散投資継続。',
+   highlights:['ファウンドリ70%超独占・≤3nm 90%超','N2（2nm）量産2025年Q4始動→2026加速','2025売上$122.4B（+34%）'],
   },
   {id:'samsungfoundry',layer:5,sub:'ファウンドリ',name:'Samsung Foundry',country:'KR',
    product:'先端ロジック受託製造（GAA/2nm）',share:7,shareLabel:'ファウンドリ世界シェア',
-   strength:'2nm GAA量産宣言（2025.11）。Tesla AI6受注を獲得。歩留まりが55〜60%に到達し量産体制へ。',
-   risk:'HBM品質問題でNVIDIA認証3度失敗。TSMCとの格差が2024年にさらに拡大（55pt→62pt差）。',
-   highlights:['ファウンドリ世界2位（7%）','2nm GAA量産（2025.11）','Tesla AI6受注'],
+   strength:'世界初の2nm GAAモバイルチップ「Exynos 2600」を発表（2025.12）。2nm GAAでTeslaや中国勢から大型受注を獲得。歩留まり改善で量産体制を整備中。',
+   risk:'Exynos 2600の本格量産は立ち上げ途上。先端ロジックでTSMCとの差は依然大きい。',
+   highlights:['ファウンドリ世界2位（7%）','2nm GAA「Exynos 2600」発表（2025.12）','Tesla・中国勢から2nm受注'],
   },
   {id:'smic',layer:5,sub:'ファウンドリ',name:'SMIC',country:'CN',
    product:'成熟ノード〜7nm（DUVのみ）',share:5,shareLabel:'ファウンドリ世界シェア',
@@ -359,52 +359,52 @@ const COMPANIES=[
   {id:'intel',layer:5,sub:'IDM（製造）',name:'Intel Foundry',ticker:'INTC',country:'US',
    product:'CPU（IDM）・Intel Foundry（外部受託）',share:4,shareLabel:'ファウンドリ市場シェア（推計）',
    featured:true,
-   revenue:'$49.8B（2024）',mcap:'≈$90B',stock24:'−60%（2024）',perf:'dn',
-   ir:{per:'N/A（赤字）',pbr:'1.0x',roe:'−35%（赤字）',div:'廃止中',guidance:'18A量産が回復の鍵',latestQ:'Q4赤字継続・18A顧客獲得交渉中',irLink:'https://www.intc.com/ir/'},
-   strength:'18A（RibbonFET＋PowerVia裏面電源）で業界初の技術で巻き返しを図る。米政府が約10%出資・CHIPS法補助。Lip-Bu Tan新CEO（2025.3就任）の下でファウンドリ事業を分離独立化。Microsoft・AWS・DoD等が外部顧客候補。',
-   risk:'Foundry部門で$13.4B営業損失（2024年）。18Aの歩留まりが依然課題。大規模リストラ（社員15,000名以上）継続中。',
-   outlook:'2026年Intel 18A製品ライン（Panther Lake）の量産が成否の分岐点。社内vs外部顧客の利益相反解消が課題。',
-   highlights:['−60%（2024年・苦境継続）','18A（裏面電源）で逆転狙い','Lip-Bu Tan新CEO・ファウンドリ分離独立化'],
+   revenue:'≈$53B（2025・概算）',mcap:'≈$120B規模',stock24:'+約30%（直近1年）',perf:'up',
+   ir:{per:'N/A（赤字圏）',pbr:'1.3x',roe:'改善途上',div:'廃止中',guidance:'18Aランプ（Panther Lake）が本格化・14Aで外部顧客を開拓',latestQ:'18A量産がFab 52で立ち上がり歩留まり改善・外部顧客と交渉',irLink:'https://www.intc.com/ir/'},
+   strength:'18A（RibbonFET＋PowerVia裏面電源）が量産入りし、TSMC N2に先行。Panther Lake／Clearwater Forestを牽引する。2025年に米政府が約10%出資、CHIPS法補助も。Lip-Bu Tan CEOの下でファウンドリを分離。外部顧客の本命は次世代14A（決定はH2 2026〜2027）。',
+   risk:'Foundry部門の営業損失が継続。18Aの歩留まり改善は途上で大規模リストラも継続。外部顧客の本格獲得は14A（2027前後）が勝負どころ。',
+   outlook:'2026年は「実行の年」、本格的な収益反転は2027年が分岐点。Panther Lakeの量産立ち上げと14Aでの外部顧客獲得が成否を分ける。',
+   highlights:['18A量産入り・TSMC N2に先行','Panther Lake／Clearwater Forestを牽引','米政府が約10%出資・14Aで外部開拓'],
   },
   {id:'rapidus',layer:5,sub:'IDM（製造）',name:'Rapidus（ラピダス）',country:'JP',
    product:'2nm先端ロジック（国産ファウンドリ）',share:0,shareLabel:'2027年量産目標',
    featured:true,
-   strength:'日本政府補助¥2.6兆＋黄金株保有。IBM 2nm技術移転。北海道千歳IIM-1工場建設完了。2025.04 EUV露光成功、2025.07 GAA動作確認。2026年初頭 試験生産ライン稼働。Tenstorrent（RISC-V AI）・PFN（MN-Core2）の2nm製造を受注済み。',
-   risk:'量産実績ゼロ。2027年量産目標への懐疑論。コスト競争力確立が課題。追加資金調達が必要。',
-   outlook:'2026年試作量産ライン安定化、2027年本格量産が目標。Rapidus成功は日本の半導体主権回復の象徴。国内顧客（PFN・Tenstorrent JP）の実績が外部顧客獲得の鍵。',
-   highlights:['政府補助¥2.6兆＋α','2026年初試験生産ライン稼働','Tenstorrent・PFN受注済み'],
+   strength:'日本政府補助¥2.6兆＋黄金株保有。IBM 2nm技術移転。北海道千歳IIM-1で2025年4月に試作ライン稼働、7月にGAAトランジスタの動作を確認（設計通りの電気特性を達成）。2026年春には後工程（先端パッケージ）の試作ラインを開設予定。Tenstorrent（RISC-V AI）・PFN（MN-Core）の2nm製造を受注済み。',
+   risk:'量産実績ゼロ。2027年量産目標への懐疑論。コスト競争力の確立が課題。追加資金調達が必要。',
+   outlook:'2026年は試作ラインの安定化と顧客の設計参画を進め、2027年の本格量産を目指す。NEDOがFY2026の計画・予算を承認済み。Rapidus成功は日本の半導体主権回復の象徴。',
+   highlights:['政府補助¥2.6兆＋α','2025年4月試作稼働・7月GAA動作確認','2027年量産目標・Tenstorrent/PFN受注'],
   },
 
   // ─── LAYER 5: Memory IDM ───
   {id:'skhynix',layer:5,sub:'メモリIDM',name:'SK hynix',ticker:'000660.KS',country:'KR',
-   product:'DRAM（首位）・HBM（断トツ首位）・HBM4',share:62,shareLabel:'HBM世界シェア（断トツ1位）',
+   product:'DRAM・HBM（断トツ首位）・HBM4',share:62,shareLabel:'HBM世界シェア（断トツ1位）',
    featured:true,
-   revenue:'$44.2B（2024）→$60B超見込み（2025）',mcap:'≈$160B',stock24:'+67%（2024）',perf:'up',
-   ir:{per:'8x',pbr:'1.8x',roe:'23%',div:'₩1,200',guidance:'HBM4でさらなる独占強化',latestQ:'Q4 HBM売上急増・DRAM首位奪取確認',irLink:'https://www.skhynix.com/ir/'},
-   strength:'HBM3EでNVIDIA向け供給の90%を担う（シェア62%）。DRAMでもSamsungを逆転（2025Q1初の首位、36%）。HBM4（Rubin向け）を世界初量産開始（2025年）。Cheongju新工場$12.9B投資（2028年稼働）で世界最大のHBM組立能力を確立予定。',
-   risk:'NVIDIA依存度が高い（HBMの70〜90%がNVIDA向け）。AIバブル崩壊時の在庫リスク。',
-   highlights:['HBM世界1位（62%・断トツ）','HBM4（Rubin向け）世界初量産','DRAM首位逆転（2025Q1）'],
+   revenue:'$44.2B（2024）→過去最高（2025）',mcap:'≈$1.0兆ドル超（2026年突破）',stock24:'+約250%（2026年初来）',perf:'up',
+   ir:{per:'9x',pbr:'2.6x',roe:'35%',div:'₩1,500',guidance:'HBM4独占供給でAIメモリ・スーパーサイクルを主導',latestQ:'Q1 2026売上₩52.6兆（+198%）・世界最高益のメモリ企業に',irLink:'https://www.skhynix.com/ir/'},
+   strength:'HBM3E/HBM4でNVIDIA向け供給を主導（HBM 62%）。HBM4（Rubin向け）を2026年2月に量産開始。AIメモリ・スーパーサイクルで2026年に時価総額$1兆ドルを突破し、世界で最も収益性の高いメモリ企業に。Cheongju新工場$12.9B投資（2028年稼働）で世界最大級のHBM組立能力を確立予定。',
+   risk:'NVIDIA依存度が高い（HBMの大半がNVIDIA向け）。AIメモリ需要が反転した際の在庫・価格リスク。',
+   highlights:['HBM世界1位（62%・断トツ）','HBM4量産開始（2026年2月）・Rubin向け','時価総額$1兆ドル突破（2026）'],
   },
   {id:'samsungmem',layer:5,sub:'メモリIDM',name:'Samsung Memory',country:'KR',
-   product:'DRAM・NAND・HBM（失速中）',share:33,shareLabel:'DRAM世界シェア（2位）',
-   strength:'NAND世界1位（32.9%）。DRAM世界2位（33%→SK hynixに逆転された）。Samsung Foundryと合わせた垂直統合。',
-   risk:'HBM3E NVIDIA認証3度失敗。HBMシェアが41%→17%に急落。DRAM首位もSK hynixに喪失。',
-   highlights:['NAND世界1位（32.9%）','DRAM世界2位（33%）','HBMで苦戦（17%）'],
+   product:'DRAM・NAND・HBM（HBM4で巻き返し）',share:38,shareLabel:'DRAM世界シェア（約38%）',
+   strength:'NAND世界トップ級。DRAMでも約38%で首位を争う。HBMでは出遅れたが第6世代HBM4を量産しNVIDIA Vera Rubin向け採用を狙う（HBM4EもGTC 2026で公開）。Samsung Foundryと合わせた垂直統合が強み。',
+   risk:'HBMはSK hynix・Micronに先行を許す（シェア約17%）。HBM4でのNVIDIA本格採用が巻き返しの条件。',
+   highlights:['NAND世界トップ級','DRAM約38%で首位を争う','HBM4量産でNVIDIA採用を狙う'],
   },
   {id:'micron',layer:5,sub:'メモリIDM',name:'Micron Technology',ticker:'MU',country:'US',
    product:'DRAM・HBM（急成長）',share:21,shareLabel:'HBM世界シェア（急拡大中）',
-   revenue:'$25.1B',mcap:'≈$100B',stock24:'+18%',perf:'up',
-   ir:{per:'12x',pbr:'2.8x',roe:'23%',div:'$0.46',guidance:'HBM急拡大・広島ファブ稼働',latestQ:'Q2 HBM売上$1.1B・前年比400%増',irLink:'https://investors.micron.com/'},
-   strength:'HBM3EでBlackwell Ultra向けに採用。HBMシェア急拡大（→21%、Samsung超え）。広島に$9.6B HBMファブ建設計画（日本政府補助¥5,360億）。',
-   highlights:['HBM急拡大（21%・Samsung超え）','広島$9.6Bファブ建設計画','日本政府補助¥5,360億'],
+   revenue:'$37.4B（FY2025・過去最高）',mcap:'≈$250B規模',stock24:'+約150%（直近1年）',perf:'up',
+   ir:{per:'12x',pbr:'4x',roe:'28%',div:'$0.46',guidance:'メモリ・スーパーサイクルで売上・粗利率とも過去最高',latestQ:'FY Q2 2026売上$23.9B（過去最高）・HBM急拡大',irLink:'https://investors.micron.com/'},
+   strength:'HBM3E/HBM4でNVIDIA Blackwell/Rubin向けに採用。HBMシェアが急拡大し21%でSamsungを逆転（2位）。FY2025は過去最高売上$37.4B。広島に$9.6B HBMファブを建設（日本政府補助¥5,360億）。',
+   highlights:['HBM急拡大（21%・Samsung超え）','FY2025売上$37.4B（過去最高）','広島$9.6Bファブ・政府補助¥5,360億'],
   },
   {id:'kioxia',layer:5,sub:'メモリIDM',name:'キオクシア（Kioxia）',en:'Kioxia Holdings',ticker:'6600.T',country:'JP',
    product:'3D NAND（BiCS FLASH）',share:14,shareLabel:'NAND世界シェア（3位）',
    featured:true,
-   revenue:'≈¥1.7兆',mcap:'≈¥5.7兆（2025年）',stock24:'+540%（2025年！）',perf:'up',
-   ir:{per:'22x',pbr:'3.1x',roe:'14%',div:'¥30',guidance:'AI需要でNAND価格回復継続',latestQ:'Q3 NAND価格+18%・AI向けeSSD急増',irLink:'https://www.kioxia-holdings.com/ja-jp/ir/'},
-   strength:'2024年12月東証プライム上場。NANDシェア世界3位（14%）。AI需要でNAND価格が回復し2025年株価+540%はMSCI World最高水準。四日市・北上工場でBiCS NAND最先端を生産。',
-   highlights:['+540%（2025年・MSCI World最高水準）','NAND世界3位（14%）','2024年12月上場'],
+   revenue:'≈¥2兆（FY2025・過去最高）',mcap:'≈¥10兆規模（上場来 約13倍）',stock24:'上場来 約13倍（2024.12〜）',perf:'up',
+   ir:{per:'20x',pbr:'3.6x',roe:'18%',div:'¥30',guidance:'NANDスーパーサイクルで価格・数量とも拡大',latestQ:'NAND価格が歴史的高騰・2026年の生産能力は実質完売',irLink:'https://www.kioxia-holdings.com/ja-jp/ir/'},
+   strength:'2024年12月東証プライム上場。NANDシェア世界3位（14%）。AIメモリ・スーパーサイクルでNAND価格が歴史的に高騰し、株価は上場来約13倍に急騰、日本有数の時価総額に成長。2026年の生産能力は実質完売。四日市・北上工場でBiCS NAND最先端を生産。',
+   highlights:['上場来 約13倍（AIメモリ急騰）','NAND世界3位（14%）・2026年完売','日本有数の時価総額に成長'],
   },
 
   // ─── LAYER 6: OSAT/Backend ───
@@ -452,8 +452,8 @@ const COMPANIES=[
 
   // ─── LAYER 7: End Products ───
   {id:'nvidiadc',layer:7,sub:'AI / DC',name:'NVIDIA（DC）',country:'US',
-   product:'AIデータセンター（H100/B200/Rubin系）',share:85,shareLabel:'AIアクセラレータ市場シェア',
-   highlights:['AIデータセンター事実上独占','FY2025データセンター$115.2B'],
+   product:'AIデータセンター（B200/GB300/Rubin系）',share:85,shareLabel:'AIアクセラレータ市場シェア',
+   highlights:['AIデータセンター事実上独占','FY2026データセンター売上$193.7B（過去最高）'],
   },
   {id:'google',layer:7,sub:'AI / DC',name:'Google（TPU）',country:'US',
    product:'TPU（Tensor Processing Unit）自社AI加速器',share:5,shareLabel:'ハイパースケーラASIC',
@@ -464,8 +464,8 @@ const COMPANIES=[
    highlights:['Trainium2：NVIDIA H100対比コスト50%削減主張','Broadcomと共同開発'],
   },
   {id:'appledev',layer:7,sub:'モバイル',name:'Apple（iPhone）',country:'US',
-   product:'iPhone（A18 Pro：TSMC 3nm）',share:23,shareLabel:'スマホSoC市場（自社設計）',
-   highlights:['A18 Pro：TSMC 3nm','iPhoneシリーズ年10億台超'],
+   product:'iPhone（A19 Pro：TSMC 3nm級）',share:23,shareLabel:'スマホSoC市場（自社設計）',
+   highlights:['A19 Pro：TSMC 3nm級','iPhoneシリーズ年10億台超'],
   },
   {id:'samsung_phone',layer:7,sub:'モバイル',name:'Samsung（Exynos）',country:'KR',
    product:'Galaxy向けExynos SoC',share:8,shareLabel:'スマホSoC市場',
@@ -581,8 +581,9 @@ function createCompanyCard(co){
   const shareSection=co.share?`<div class="cc-share-section"><div class="cc-share-label"><span>${co.shareLabel||'世界シェア'}</span><span class="cc-share-pct">${co.share}%</span></div><div class="cc-share-bar"><div class="cc-share-fill" style="width:${Math.min(co.share,100)}%;background:${color}"></div></div></div>`:'';
   const gntBadge=co.gnt?`<div class="gnt-badge">⭐ Global Niche Top</div>`:'';
   const featBadge=co.featured&&!co.gnt?`<div style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:20px;font-size:9px;font-weight:700;background:#FEF3C7;color:#92400E;border:1px solid #F59E0B;margin-bottom:6px">★ FEATURED</div>`:'';
-  const yearLabel=co.revenue&&co.revenue.includes('2025')?'売上（2025）':'売上（2024）';
-  cc.innerHTML=`<div class="cc-top"></div><div class="cc-body">${gntBadge}${featBadge}<div class="cc-row1"><div><div class="cc-name">${flag(co.country)} ${co.name}</div>${co.en?`<div class="cc-en">${co.en}</div>`:''}</div>${co.ticker?`<div class="cc-badge" style="color:${color};border-color:${color};background:${bg}">${co.ticker}</div>`:''}</div><div class="cc-product">${co.product||''}</div>${shareSection}<div class="cc-highlights">${highlights}</div></div>${(co.stock24||co.revenue)?`<div class="cc-footer"><div class="cc-footer-text">${co.revenue?yearLabel+': '+co.revenue+' ／ ':''} ${co.mcap?'時価総額: '+co.mcap+' ／ ':''}${co.stock24?'株価: '+co.stock24:''}</div></div>`:''}`;
+  const stat=(k,v,cls)=>v?`<div class="cc-stat"><span class="cc-stat-k">${k}</span><span class="cc-stat-v ${cls||''}">${v}</span></div>`:'';
+  const footer=(co.revenue||co.mcap||co.stock24)?`<div class="cc-footer">${stat('売上',co.revenue)}${stat('時価総額',co.mcap)}${stat('株価騰落',co.stock24,co.perf==='up'?'up':co.perf==='dn'?'dn':'')}</div>`:'';
+  cc.innerHTML=`<div class="cc-top"></div><div class="cc-body">${gntBadge}${featBadge}<div class="cc-row1"><div><div class="cc-name">${flag(co.country)} ${co.name}</div>${co.en?`<div class="cc-en">${co.en}</div>`:''}</div>${co.ticker?`<div class="cc-badge" style="color:${color};border-color:${color};background:${bg}">${co.ticker}</div>`:''}</div><div class="cc-product">${co.product||''}</div>${shareSection}<div class="cc-highlights">${highlights}</div></div>${footer}`;
   cc.onclick=()=>showDetail(co.id);
   return cc;
 }
@@ -659,20 +660,20 @@ function buildGNTSlide(){
 /* ─── Build Stock Ranking ─── */
 const STOCK_RANKING=[
   {rank:1,id:'oxide',name:'オキサイド',ticker:'6521.T',country:'JP',currRef:'¥4,500前後',tgtRef:'¥22,500',multi:5.0,horizon:'18ヶ月',moat:'DUV波長変換単結晶95%独占',catalysts:['AI検査装置需要の急増','EUV光源コンポーネント展開','KLA・日立ハイテク採用継続'],rationale:'時価総額≈¥150億という極めて小さな規模に対し、代替品ゼロの95%独占という構造的優位性が非対称リターンを生む。売上¥30億規模のため微細化進展に伴う受注増が利益に直結。AI GPU量産増で検査装置需要は構造的拡大局面にあり、小型株特有の営業レバレッジが最大の魅力。',risk:'流動性が低く機関投資家の参入が制限される。半導体サイクル感応が高い。'},
-  {rank:2,id:'advantest',name:'アドバンテスト',ticker:'6857.T',country:'JP',currRef:'¥9,500前後',tgtRef:'¥26,600',multi:2.8,horizon:'18ヶ月',moat:'AI GPUテスタ事実上独占',catalysts:['Rubin世代でテスト時間3〜4倍化','HBM4テスト需要加速','生産能力5,000→10,000台倍増'],rationale:'NVIDIAのBlackwell→Rubinへの移行でテスト難易度が非線形に増加。H100→B200でテスト時間2〜3倍、Rubin→HBM4でさらに倍増が見込まれる。FY25Q1営業利益率47%という異常な収益性はそのまま拡張される構造。Installed Baseのストック収益も積み上がり中。',risk:'NVIDIA依存度70%超でAIバブル崩壊時のリスク高。高バリュエーション継続中。'},
+  {rank:2,id:'advantest',name:'アドバンテスト',ticker:'6857.T',country:'JP',currRef:'¥16,000前後',tgtRef:'¥28,800',multi:1.8,horizon:'18ヶ月',moat:'AI GPUテスタ事実上独占',catalysts:['Rubin世代でテスト時間3〜4倍化','HBM4テスト需要加速','生産能力5,000→10,000台倍増'],rationale:'NVIDIAのBlackwell→Rubinへの移行でテスト難易度が非線形に増加。H100→B200でテスト時間2〜3倍、Rubin→HBM4でさらに倍増が見込まれる。FY25Q1営業利益率47%という異常な収益性はそのまま拡張される構造。Installed Baseのストック収益も積み上がり中。',risk:'NVIDIA依存度70%超でAIバブル崩壊時のリスク高。高バリュエーション継続中。'},
   {rank:3,id:'lasertec',name:'レーザーテック',ticker:'6920.T',country:'JP',currRef:'¥20,000前後',tgtRef:'¥46,000',multi:2.3,horizon:'18ヶ月',moat:'EUVマスク検査装置100%独占',catalysts:['High-NA EUV普及で装置単価上昇','Rapidus千歳ファブ稼働','Samsung 2nm GAA量産開始'],rationale:'ASML EUVを1台導入するたびにレーザーテック装置も1台必要という連動構造は不変。High-NA EUV（NA=0.55）移行でマスクの複雑性が急増し、検査精度要求と単価が上昇。Rapidus国内顧客追加でリスク分散も進む。',risk:'ピーク時に比べバリュエーション調整は進行済みだが、TSMC設備投資サイクルに依存。'},
-  {rank:4,id:'broadcom',name:'Broadcom',ticker:'AVGO',country:'US',currRef:'$290前後',tgtRef:'$638',multi:2.2,horizon:'18ヶ月',moat:'ハイパースケーラXPU設計独占',catalysts:['推論AI需要でカスタムXPU急成長','OpenAI $10B ASIC契約','Google/Meta/Apple全顧客化'],rationale:'AI推論フェーズ移行でカスタムASIC（XPU）の経済合理性が高まりNVIDIA依存分散が加速。Google・Meta・Apple・OpenAIという最大クラウド4社が全てBroadcom顧客。NVIDIA独占に対するヘッジとして大規模発注継続。時価総額$1Tから$2Tへの道筋が見える。',risk:'TSMCの先端製造容量確保が課題。VMwareソフト事業との統合消化が続く。'},
-  {rank:5,id:'skhynix',name:'SK hynix',ticker:'000660.KS',country:'KR',currRef:'₩210,000前後',tgtRef:'₩420,000',multi:2.0,horizon:'18ヶ月',moat:'HBM世界シェア62%（断トツ1位）',catalysts:['HBM4（Rubin向け）独占的供給','DRAM首位定着（2025Q1以降）','Cheongju新工場$12.9B稼働（2028）'],rationale:'HBM3EでNVIDIA向け90%供給を担い、HBM4でもリードを維持。DRAMでもSamsungを2025Q1に逆転し首位を奪取。AI需要の構造的拡大局面でHBM供給能力の希少性がプレミアムを正当化。',risk:'NVIDIA依存度が高く、AI需要減速時の在庫リスク。Samsung・Micronの追走。'},
+  {rank:4,id:'broadcom',name:'Broadcom',ticker:'AVGO',country:'US',currRef:'$320前後',tgtRef:'$640',multi:2.0,horizon:'18ヶ月',moat:'ハイパースケーラXPU設計独占',catalysts:['推論AI需要でカスタムXPU急成長','OpenAI $10B ASIC契約','Google/Meta/Apple全顧客化'],rationale:'AI推論フェーズ移行でカスタムASIC（XPU）の経済合理性が高まりNVIDIA依存分散が加速。Google・Meta・Apple・OpenAIという最大クラウド4社が全てBroadcom顧客。NVIDIA独占に対するヘッジとして大規模発注継続。時価総額$1Tから$2Tへの道筋が見える。',risk:'TSMCの先端製造容量確保が課題。VMwareソフト事業との統合消化が続く。'},
+  {rank:5,id:'skhynix',name:'SK hynix',ticker:'000660.KS',country:'KR',currRef:'₩1,900,000前後',tgtRef:'₩2,660,000',multi:1.4,horizon:'18ヶ月',moat:'HBM世界シェア62%（断トツ1位）',catalysts:['HBM4（Rubin向け）独占的供給','AIメモリ・スーパーサイクル継続','Cheongju新工場$12.9B稼働（2028）'],rationale:'HBM3E/HBM4でNVIDIA向け供給を主導し、2026年に時価総額$1兆ドルを突破、世界で最も収益性の高いメモリ企業に。AIメモリ・スーパーサイクルでHBM供給能力の希少性がプレミアムを正当化。ただし2026年初来で大きく上昇しており、ここからの倍率は相対的に低下している。',risk:'NVIDIA依存度が高く、AI需要が反転した際の在庫・価格リスク。Samsung・Micronの追走。'},
   {rank:6,id:'arm',name:'ARM Holdings',ticker:'ARM',country:'UK',currRef:'$180前後',tgtRef:'$342',multi:1.9,horizon:'18ヶ月',moat:'モバイルSoC 99%採用・データセンターCPU侵食',catalysts:['データセンターCPUでx86シェア25%超へ','ロイヤリティ単価上昇（高価値チップ増）','Qualcomm訴訟完全勝訴で事業リスク消滅'],rationale:'AWS Graviton4・Google Axion2・Microsoft Cobalt2など大手クラウドがARMサーバーCPUを積極採用しx86依存度を引き下げ中。ARMのロイヤリティ収入はチップ価格に連動するため、高価値AI SoCの増加で平均単価（ARP）が上昇する構造。',risk:'RISC-Vの中国政策採用と国産化圧力。成長期待の高バリュエーション。'},
-  {rank:7,id:'nvidia',name:'NVIDIA',ticker:'NVDA',country:'US',currRef:'$130前後',tgtRef:'$221',multi:1.7,horizon:'18ヶ月',moat:'AIアクセラレータ80〜92%独占・CUDAの壁',catalysts:['Rubin GPC（GB300）量産拡大','データセンター支出$500B超へ','ソフトウェア・エコシステムの拡張'],rationale:'$4T時価総額突破後も、Rubin世代でGPU性能が再び大幅向上。CUDAエコシステムのスイッチングコストはむしろ高まりNVIDIA離脱が困難な状況が続く。FY2026データセンター売上$200B超の試算もある。',risk:'カスタムASIC（Broadcom/Marvell）が推論用途でシェア侵食。中国輸出規制の影響継続。'},
-  {rank:8,id:'kioxia',name:'キオクシア',ticker:'6600.T',country:'JP',currRef:'¥2,100前後',tgtRef:'¥3,570',multi:1.7,horizon:'18ヶ月',moat:'NAND世界3位・BiCS FLASH技術',catalysts:['AI・データセンター向けNAND需要急増','NANDサイクル回復（2025〜）','WD合併交渉の行方'],rationale:'2024年12月上場後、NANDサイクル回復と生成AI向けストレージ需要でMSCI World最高水準の株価上昇。上場後の制度整備とインデックス組入れ効果でさらなる資金流入が期待される。',risk:'NANDサイクルの再下落リスク。WD合併交渉の不透明感。'},
-  {rank:9,id:'tsmc',name:'TSMC',ticker:'TSM',country:'TW',currRef:'$240前後（ADR）',tgtRef:'$396',multi:1.65,horizon:'18ヶ月',moat:'先端ロジック≤3nm 90%超独占',catalysts:['N2（2nm）量産2025年後半','Arizona第2・第3ファブ稼働','CoWoS生産能力拡大継続'],rationale:'AI半導体需要の最終受益者として最も確実な成長軌道上にある。N2量産・CoWoS拡張・地理的分散の三本柱が揃い、台湾地政学リスクのディスカウントが縮小傾向。NVIDIA最大顧客化でトップライン成長が加速。',risk:'台湾有事リスクは依然として株価のキャップ要因。CapEx負担の継続。'},
+  {rank:7,id:'nvidia',name:'NVIDIA',ticker:'NVDA',country:'US',currRef:'$200前後',tgtRef:'$300',multi:1.5,horizon:'18ヶ月',moat:'AIアクセラレータ80〜90%独占・CUDAの壁',catalysts:['Vera Rubin（2026後半）立ち上げ','データセンター支出$500B超へ','CUDAエコシステムの拡張'],rationale:'$5兆ドル時価総額・世界首位に到達後も、Vera Rubin世代でGPU性能が再び大幅向上。CUDAのスイッチングコストはむしろ高まり離脱が困難な状況が続く。FY2026データセンター売上$193.7B（過去最高）からさらなる拡大が見込まれる。',risk:'カスタムASIC（Broadcom/Marvell）が推論用途でシェア侵食。中国輸出規制の影響継続。'},
+  {rank:8,id:'kioxia',name:'キオクシア',ticker:'6600.T',country:'JP',currRef:'¥18,000前後',tgtRef:'¥27,000',multi:1.5,horizon:'18ヶ月',moat:'NAND世界3位・BiCS FLASH技術',catalysts:['AIメモリ・スーパーサイクルでNAND急騰','2026年の生産能力は実質完売','AI向けeSSD需要の構造的拡大'],rationale:'2024年12月上場後、AIメモリ・スーパーサイクルでNAND価格が歴史的に高騰し、株価は上場来約13倍に。2026年の生産能力は実質完売で、AI向けストレージ需要が構造的に拡大している。',risk:'NAND価格サイクルの反転リスク。急騰後の高バリュエーション。'},
+  {rank:9,id:'tsmc',name:'TSMC',ticker:'TSM',country:'TW',currRef:'$430前後（ADR）',tgtRef:'$600',multi:1.4,horizon:'18ヶ月',moat:'先端ロジック≤3nm 90%超独占',catalysts:['N2量産2025年Q4始動→2026加速','Arizona複数ファブ稼働','CoWoS生産能力拡大継続'],rationale:'AI半導体需要の最終受益者として最も確実な成長軌道上にある。N2量産・CoWoS拡張・地理的分散の三本柱が揃い、台湾地政学リスクのディスカウントが縮小傾向。NVIDIA最大顧客化でトップライン成長が加速。',risk:'台湾有事リスクは依然として株価のキャップ要因。CapEx負担の継続。'},
   {rank:10,id:'disco',name:'ディスコ',ticker:'6146.T',country:'JP',currRef:'¥40,000前後',tgtRef:'¥64,000',multi:1.6,horizon:'18ヶ月',moat:'ダイシング装置世界70%独占',catalysts:['HBM積層でTSV工程需要急増','CoWoS対応ダイシング好調','AIサーバー1台あたりGPU数増加'],rationale:'HBMの3D積層（HBM4は16層以上）で1チップあたりのダイシング・グラインディング工程数が増加。AIサーバー1台に搭載されるHBMの量が増えることで装置需要が非線形に拡大。',risk:'HBM需要の変動感応。高バリュエーション時期もある。'},
   {rank:11,id:'asml',name:'ASML',ticker:'ASML',country:'NL',currRef:'$780前後',tgtRef:'$1,209',multi:1.55,horizon:'18ヶ月',moat:'EUV露光装置100%独占',catalysts:['High-NA EUV（NXE:5000）普及加速','中国規制の株価影響ほぼ織り込み済み','2030年まで受注残積み上がり'],rationale:'中国向けDUV輸出規制による売上影響はほぼ株価に織り込まれた状況。High-NA EUVの量産採用（TSMC、Samsung）が進み1台800億円超の装置が出荷される。TSMCの世界3拠点展開で需要の地理的分散も実現。',risk:'中国規制の追加強化リスク。Nikon ArF新世代機による部分的競合（2028年以降）。'},
   {rank:12,id:'amat',name:'Applied Materials',ticker:'AMAT',country:'US',currRef:'$195前後',tgtRef:'$293',multi:1.5,horizon:'18ヶ月',moat:'WFE装置売上世界1位・CMP60%独占',catalysts:['ハイブリッドボンディング（HBM先進パッケージ）参入','Gate-All-Around移行で成膜装置需要増','AI需要でWFE市場$120B超へ'],rationale:'装置売上世界1位としてWFE市場全体の拡大から恩恵。BESIへの出資でハイブリッドボンディングという高成長新市場にも布石。GAA（Gate-All-Around）移行でAMATの得意とする精密成膜・エッチング需要が増加。',risk:'中国向け規制で一部装置の輸出制限。装置サイクルの影響。'},
-  {rank:13,id:'micron',name:'Micron Technology',ticker:'MU',country:'US',currRef:'$100前後',tgtRef:'$150',multi:1.5,horizon:'18ヶ月',moat:'HBM急拡大（21%・Samsung超え）',catalysts:['HBM3E Blackwell Ultra向け採用','広島ファブ稼働でHBM生産能力倍増','日本政府補助¥5,360億'],rationale:'HBM市場でSamsungを追い抜き2位に浮上。Blackwell Ultra（GB300）への採用で量産本格化。広島工場が日本政府補助付きで稼働し固定費を抑制。Samsungの認証失敗がMicronへの発注集中を生んだ。',risk:'Samsungが品質問題を解決した場合の競争激化。DRAMサイクルの影響。'},
-  {rank:14,id:'shinetsu',name:'信越化学工業',ticker:'4063.T',country:'JP',currRef:'¥5,500前後',tgtRef:'¥7,425',multi:1.35,horizon:'18ヶ月',moat:'Siウェーハ世界1位（30%）・EUVレジスト',catalysts:['Rapidus/JASM稼働でウェーハ需要増','EUVフォトレジスト展開拡大','PVC・半導体材料の多重独占'],rationale:'ウェーハとEUVレジストの両方を供給できる唯一の企業として構造的に安定。Rapidus・JASM（TSMC熊本）・Micron広島の稼働でウェーハ需要が拡大。高い安定性と配当魅力を持つ防衛的優良株。',risk:'ウェーハサイクルでのASP下落リスク。南海トラフ地震への工場集中リスク。'},
-  {rank:15,id:'lam',name:'Lam Research',ticker:'LRCX',country:'US',currRef:'$780前後',tgtRef:'$1,092',multi:1.4,horizon:'18ヶ月',moat:'エッチング装置世界45%独占',catalysts:['HBM TSVエッチング需要増','3D NAND積層数増加（200層超へ）','GAA移行でエッチング工程数増加'],rationale:'HBM3→HBM4移行で積層枚数が増えTSV（シリコン貫通電極）工程のエッチング需要が増加。3D NANDの更なる高積層化（200〜300層）も同社装置が必須。WFE市場拡大と相まって安定した成長基盤。',risk:'中国向け規制で一部装置の輸出制限。装置サイクル感応。'},
+  {rank:13,id:'micron',name:'Micron Technology',ticker:'MU',country:'US',currRef:'$220前後',tgtRef:'$330',multi:1.5,horizon:'18ヶ月',moat:'HBM急拡大（21%・Samsung超え）',catalysts:['HBM3E/HBM4をBlackwell/Rubin向け採用','広島ファブ稼働でHBM生産能力拡大','メモリ・スーパーサイクルで価格急騰'],rationale:'HBM市場でSamsungを追い抜き2位に浮上。FY2025は過去最高売上$37.4Bを記録し、メモリ・スーパーサイクルで売上・粗利率とも過去最高を更新中。広島工場が日本政府補助付きで稼働し固定費を抑制。',risk:'Samsungが品質問題を解決した場合の競争激化。メモリサイクルの反転リスク。'},
+  {rank:14,id:'shinetsu',name:'信越化学工業',ticker:'4063.T',country:'JP',currRef:'¥7,000前後',tgtRef:'¥9,450',multi:1.35,horizon:'18ヶ月',moat:'Siウェーハ世界1位（30%）・EUVレジスト',catalysts:['Rapidus/JASM稼働でウェーハ需要増','EUVフォトレジスト展開拡大','PVC・半導体材料の多重独占'],rationale:'ウェーハとEUVレジストの両方を供給できる唯一の企業として構造的に安定。Rapidus・JASM（TSMC熊本）・Micron広島の稼働でウェーハ需要が拡大。高い安定性と配当魅力を持つ防衛的優良株。',risk:'ウェーハサイクルでのASP下落リスク。南海トラフ地震への工場集中リスク。'},
+  {rank:15,id:'lam',name:'Lam Research',ticker:'LRCX',country:'US',currRef:'$110前後',tgtRef:'$154',multi:1.4,horizon:'18ヶ月',moat:'エッチング装置世界45%独占',catalysts:['HBM TSVエッチング需要増','3D NAND積層数増加（200層超へ）','GAA移行でエッチング工程数増加'],rationale:'HBM3→HBM4移行で積層枚数が増えTSV（シリコン貫通電極）工程のエッチング需要が増加。3D NANDの更なる高積層化（200〜300層）も同社装置が必須。WFE市場拡大と相まって安定した成長基盤。',risk:'中国向け規制で一部装置の輸出制限。装置サイクル感応。'},
 ];
 
 function buildStockRanking(){
@@ -887,12 +888,11 @@ function showDetail(id){
   if(co.revenue||co.mcap||co.stock24){
     const finEl=document.createElement('div');
     finEl.className='dp-section';
-    const yearLabel=co.revenue&&co.revenue.includes('2025')?'売上（2025）':'売上（2024）';
     finEl.innerHTML=`<div class="dp-s-title">財務ハイライト</div>
       <div class="dp-kv-grid">
-        ${co.revenue?`<div class="dp-kv"><div class="dp-k">${yearLabel}</div><div class="dp-v">${co.revenue}</div></div>`:''}
+        ${co.revenue?`<div class="dp-kv"><div class="dp-k">売上（直近）</div><div class="dp-v">${co.revenue}</div></div>`:''}
         ${co.mcap?`<div class="dp-kv"><div class="dp-k">時価総額（概算）</div><div class="dp-v">${co.mcap}</div></div>`:''}
-        ${co.stock24?`<div class="dp-kv"><div class="dp-k">2024株価騰落</div><div class="dp-v ${co.perf==='up'?'up':co.perf==='dn'?'dn':''}">${co.stock24}</div></div>`:''}
+        ${co.stock24?`<div class="dp-kv"><div class="dp-k">株価騰落</div><div class="dp-v ${co.perf==='up'?'up':co.perf==='dn'?'dn':''}">${co.stock24}</div></div>`:''}
       </div>`;
     pane2.appendChild(finEl);
   }
@@ -909,8 +909,6 @@ function showDetail(id){
       {k:'PBR（株価純資産倍率）',v:co.ir.pbr||'—'},
       {k:'ROE（自己資本利益率）',v:co.ir.roe||'—'},
       {k:'配当（年間）',v:co.ir.div||'—'},
-      {k:'業績ガイダンス',v:co.ir.guidance||'—'},
-      {k:'直近決算ハイライト',v:co.ir.latestQ||'—'},
     ];
     irItems.forEach(item=>{
       const d=document.createElement('div');
@@ -919,6 +917,14 @@ function showDetail(id){
       grid.appendChild(d);
     });
     irEl.appendChild(grid);
+    // 業績ガイダンス・直近決算は文章が長いため全幅の読みやすい行で表示
+    [{k:'📈 業績ガイダンス',v:co.ir.guidance},{k:'🗓 直近決算ハイライト',v:co.ir.latestQ}].forEach(item=>{
+      if(!item.v)return;
+      const r=document.createElement('div');
+      r.className='ir-row';
+      r.innerHTML=`<div class="ir-row-k">${item.k}</div><div class="ir-row-v">${item.v}</div>`;
+      irEl.appendChild(r);
+    });
     if(co.ir.irLink){
       const linkWrap=document.createElement('div');
       linkWrap.style.marginTop='10px';
