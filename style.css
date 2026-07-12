@@ -20,7 +20,8 @@
 html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);font-family:'Noto Sans JP',sans-serif;color:var(--t0)}
 .app{display:flex;flex-direction:column;height:100%;width:100%;position:relative}
 .top-bar{display:flex;align-items:center;justify-content:space-between;background:var(--navy);color:#fff;padding:0 40px;height:52px;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.15);position:relative;z-index:50}
-.tb-brand{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;letter-spacing:.04em;opacity:.9}
+.tb-brand{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;letter-spacing:.04em;opacity:.9;display:inline-flex;align-items:center;gap:8px}
+.tb-version{font-family:'DM Sans',sans-serif;font-size:10px;font-weight:700;letter-spacing:.03em;color:#BFD4FF;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:20px;padding:2px 8px;opacity:.95}
 .tb-title{font-size:13px;font-weight:500;opacity:.7;font-family:'DM Sans',sans-serif}
 .tb-info{font-size:11px;opacity:.5;font-family:'DM Sans',sans-serif;letter-spacing:.05em}
 .progress-bar{position:absolute;bottom:0;left:0;height:2px;background:linear-gradient(90deg,#5B9EFF,#38D7D7);transition:width .4s ease}
